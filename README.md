@@ -13,6 +13,15 @@
 
 ---
 
+## 🚀 Interactive Notebook Environments
+
+If the core pipeline notebook is too large to render directly on GitHub, use the interactive or static mirror links below to view the full pipeline, training logs, and SHAP visualizations:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/puravi-predicts/InsureIQ-Claim-Risk-Prediction/blob/main/InsClaimPred-Pipeline.ipynb)
+[![Render in nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/puravi-predicts/InsureIQ-Claim-Risk-Prediction/blob/main/InsClaimPred-Pipeline.ipynb)
+
+---
+
 ## Overview
 
 Insurance companies need to predict which customers are likely to file a claim — but the event is rare (**~3.6% positive class**), the raw features are anonymized for privacy (`ps_ind_*`, `ps_car_*`, `ps_reg_*`), and a naive model can hit 96% "accuracy" by always predicting "no claim." InsureIQ tackles this as a serious, production-minded ML problem rather than a toy classification exercise:
